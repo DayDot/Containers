@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+  <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DDWoodBarrel</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_WoodBarrel</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WoodBarrel.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.25</Y>
+        <Z>0.25</Z>
+      </Size>
+      <Mass>123</Mass>
+      <Volume>15</Volume>
+      <Model>Models\Cubes\Small\WoodBarrel.mwm</Model>
+      <MaxIntegrity>200</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <CanSpawnFromScreen>false</CanSpawnFromScreen>
+      <MaxStackAmount>1</MaxStackAmount>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DDWoodChest</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_WoodChest</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WoodChest.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.25</Y>
+        <Z>0.25</Z>
+      </Size>
+      <Mass>123</Mass>
+      <Volume>15</Volume>
+      <Model>Models\Cubes\Small\WoodChest.mwm</Model>
+      <MaxIntegrity>200</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <CanSpawnFromScreen>false</CanSpawnFromScreen>
+      <MaxStackAmount>1</MaxStackAmount>
+    </Component>
+    
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DDWoodChestLarge</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_WoodChestLarge</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WoodChestLarge.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.25</Y>
+        <Z>0.25</Z>
+      </Size>
+      <Mass>123</Mass>
+      <Volume>15</Volume>
+      <Model>Models\Cubes\Small\WoodChestLarge.mwm</Model>
+      <MaxIntegrity>200</MaxIntegrity>
+      <DropProbability>0.9</DropProbability>
+      <CanSpawnFromScreen>false</CanSpawnFromScreen>
+      <MaxStackAmount>1</MaxStackAmount>
+    </Component>
+
+  </Components>
+        
+</Definitions>

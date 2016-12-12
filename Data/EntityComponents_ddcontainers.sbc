@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+  <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_Inventory</TypeId>
+        <SubtypeId>DDWoodBarrelInventory</SubtypeId>
+      </Id>
+      <MaxItemCount>21</MaxItemCount>
+      <MultiplierEnabled>true</MultiplierEnabled>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_Inventory</TypeId>
+        <SubtypeId>DDWoodChestInventory</SubtypeId>
+      </Id>
+      <MaxItemCount>14</MaxItemCount>
+      <MultiplierEnabled>true</MultiplierEnabled>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_Inventory</TypeId>
+        <SubtypeId>DDWoodChestLargeInventory</SubtypeId>
+      </Id>
+      <MaxItemCount>28</MaxItemCount>
+      <MultiplierEnabled>true</MultiplierEnabled>
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

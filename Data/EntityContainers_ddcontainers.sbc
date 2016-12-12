@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityContainers>
+
+    <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>DDWoodBarrel</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="DDWoodBarrelInventory"/>
+        <Component BuilderType="MyObjectBuilder_InventorySpawnComponent"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>DDWoodChest</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="DDWoodChestInventory" />
+        <Component BuilderType="MyObjectBuilder_InventorySpawnComponent"/>
+        <Component BuilderType="MyObjectBuilder_UseObjectsComponent" SubtypeId="WoodChest"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>DDWoodChestLarge</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory" SubtypeId="DDWoodChestLargeInventory"/>
+        <Component BuilderType="MyObjectBuilder_InventorySpawnComponent"/>
+      </DefaultComponents>
+    </Container>
+
+  </EntityContainers>
+</Definitions>

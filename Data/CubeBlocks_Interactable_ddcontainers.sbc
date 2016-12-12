@@ -1,0 +1,115 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>DDWoodChest</SubtypeId>
+      </Id>
+      <BlockPairName>WoodChest</BlockPairName>
+      <DisplayName>DisplayName_Block_WoodChest</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WoodChest.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="4" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\WoodChest.mwm</Model>
+      <Components>
+        <Component Subtype="Timber10" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Timber10" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <PhysicalMaterial>Wood</PhysicalMaterial>
+      <AvailableInSurvival>true</AvailableInSurvival>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Both</PlacementMode>
+          <MaxAllowed>1</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Both</PlacementMode>
+          <MaxAllowed>1</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>DDWoodChestLarge</SubtypeId>
+      </Id>
+      <BlockPairName>WoodChestLarge</BlockPairName>
+      <DisplayName>DisplayName_Block_WoodChestLarge</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WoodChestLarge.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="8" y="4" z="4" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\WoodChestLarge.mwm</Model>
+      <Components>
+        <Component Subtype="Timber10" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Timber10" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <PhysicalMaterial>Wood</PhysicalMaterial>
+      <Mass>4</Mass>
+      <AvailableInSurvival>true</AvailableInSurvival>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Both</PlacementMode>
+          <MaxAllowed>1</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Both</PlacementMode>
+          <MaxAllowed>1</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>DDWoodBarrel</SubtypeId>
+      </Id>
+      <BlockPairName>WoodBarrel</BlockPairName>
+      <DisplayName>DisplayName_Block_WoodBarrel</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WoodBarrel.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="4" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\WoodBarrel.mwm</Model>
+      <Components>
+        <Component Subtype="Timber10" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Timber10" Index="0" />
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <PhysicalMaterial>Wood</PhysicalMaterial>
+      <AvailableInSurvival>true</AvailableInSurvival>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Both</PlacementMode>
+          <MaxAllowed>1</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Both</PlacementMode>
+          <MaxAllowed>1</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+    </Definition>
+    
+  </CubeBlocks>
+</Definitions>

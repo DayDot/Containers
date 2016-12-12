@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint xsi:type="MyObjectBuilder_BlockBlueprintDefinition">
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DDWoodChest</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_WoodChest</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WoodChest.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="CubeBlock" SubtypeId="Timber10" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="CargoContainer" SubtypeId="DDWoodChest" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint xsi:type="MyObjectBuilder_BlockBlueprintDefinition">
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DDWoodChestLarge</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_WoodChestLarge</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WoodChestLarge.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="CubeBlock" SubtypeId="Timber10" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="CargoContainer" SubtypeId="DDWoodChestLarge" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint xsi:type="MyObjectBuilder_BlockBlueprintDefinition">
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>DDWoodBarrel</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Cubes\WoodBarrel.dds</Icon>
+      <DisplayName>DisplayName_Block_WoodBarrel</DisplayName>
+      <Prerequisites>
+        <Item Amount="3" TypeId="CubeBlock" SubtypeId="Timber10" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="CargoContainer" SubtypeId="DDWoodBarrel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint xsi:type="MyObjectBuilder_BlockBlueprintDefinition">
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>WoodChest</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_WoodChest</DisplayName>
+      <Public>false</Public>
+      <Icon>Textures\GUI\Icons\Cubes\WoodChest.dds</Icon>
+      <Prerequisites>
+        <Item Amount="2" TypeId="CubeBlock" SubtypeId="Timber10" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="CargoContainer" SubtypeId="DDWoodChest" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint xsi:type="MyObjectBuilder_BlockBlueprintDefinition">
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>WoodChestLarge</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_WoodChestLarge</DisplayName>
+      <Public>false</Public>
+      <Icon>Textures\GUI\Icons\Cubes\WoodChestLarge.dds</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="CubeBlock" SubtypeId="Timber10" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="CargoContainer" SubtypeId="DDWoodChestLarge" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint xsi:type="MyObjectBuilder_BlockBlueprintDefinition">
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>WoodBarrel</SubtypeId>
+      </Id>
+      <Icon>Textures\GUI\Icons\Cubes\WoodBarrel.dds</Icon>
+      <DisplayName>DisplayName_Block_WoodBarrel</DisplayName>
+      <Public>false</Public>
+      <Prerequisites>
+        <Item Amount="3" TypeId="CubeBlock" SubtypeId="Timber10" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="CargoContainer" SubtypeId="DDWoodBarrel" />
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+  </Blueprints>
+</Definitions>
